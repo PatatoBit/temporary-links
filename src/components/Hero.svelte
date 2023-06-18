@@ -4,6 +4,7 @@
   import { cubicInOut } from "svelte/easing"
 
   import Greeting from "./Greeting.svelte"
+  import Credits from "./Credits.svelte"
   import Links from "./Links.svelte"
   import Rings from "./Rings.svelte"
   import Areas from "./Areas.svelte"
@@ -33,7 +34,8 @@
           <Greeting />
           <Areas />
           <Links />
-          <Rings />
+          <Credits />
+          <!-- <Rings /> -->
         </div>
       </div>
     {/if}
